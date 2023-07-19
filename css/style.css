@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    font-family: 'Public Sans', sans-serif;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1440px){
+    .quadros{
+       margin-top: 30px; 
+    }
+}
+.quadros{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quadros .quadro{
+    width: 335px;
+    height: 431.03px;
+    position: relative;
+    }
+
+.quadros .quadro img{
+    width: 100%;
+}
+
+.quadros .quadro .pintura-autor{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: #ffffff;
+}
+
+.quadros .quadro .pintura-autor .nome-pintura{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.quadros .quadro .pintura-autor .nome-autor{
+    font-size: 17px;
+    font-weight: 300;
+}
